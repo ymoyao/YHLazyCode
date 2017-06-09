@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE4F42EA1EEA91730026430A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4F42E91EEA91730026430A /* AppDelegate.m */; };
+		AE4F42ED1EEA91730026430A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4F42EC1EEA91730026430A /* main.m */; };
+		AE4F42F01EEA91730026430A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4F42EF1EEA91730026430A /* ViewController.m */; };
+		AE4F42F21EEA91730026430A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE4F42F11EEA91730026430A /* Assets.xcassets */; };
+		AE4F42F51EEA91730026430A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE4F42F31EEA91730026430A /* Main.storyboard */; };
+		AE4F43001EEA91730026430A /* YHLazyCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4F42FF1EEA91730026430A /* YHLazyCodeTests.m */; };
+		AE4F430B1EEA91730026430A /* YHLazyCodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4F430A1EEA91730026430A /* YHLazyCodeUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE4F42FC1EEA91730026430A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE4F42DD1EEA91730026430A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE4F42E41EEA91730026430A;
+			remoteInfo = YHLazyCode;
+		};
+		AE4F43071EEA91730026430A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE4F42DD1EEA91730026430A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE4F42E41EEA91730026430A;
+			remoteInfo = YHLazyCode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE4F42E51EEA91730026430A /* YHLazyCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YHLazyCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE4F42E81EEA91730026430A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AE4F42E91EEA91730026430A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AE4F42EC1EEA91730026430A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE4F42EE1EEA91730026430A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AE4F42EF1EEA91730026430A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AE4F42F11EEA91730026430A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE4F42F41EEA91730026430A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE4F42F61EEA91730026430A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE4F42FB1EEA91730026430A /* YHLazyCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YHLazyCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE4F42FF1EEA91730026430A /* YHLazyCodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHLazyCodeTests.m; sourceTree = "<group>"; };
+		AE4F43011EEA91730026430A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE4F43061EEA91730026430A /* YHLazyCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YHLazyCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE4F430A1EEA91730026430A /* YHLazyCodeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHLazyCodeUITests.m; sourceTree = "<group>"; };
+		AE4F430C1EEA91730026430A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE4F42E21EEA91730026430A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE4F42F81EEA91730026430A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE4F43031EEA91730026430A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE4F42DC1EEA91730026430A = {
+			isa = PBXGroup;
+			children = (
+				AE4F42E71EEA91730026430A /* YHLazyCode */,
+				AE4F42FE1EEA91730026430A /* YHLazyCodeTests */,
+				AE4F43091EEA91730026430A /* YHLazyCodeUITests */,
+				AE4F42E61EEA91730026430A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE4F42E61EEA91730026430A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE4F42E51EEA91730026430A /* YHLazyCode.app */,
+				AE4F42FB1EEA91730026430A /* YHLazyCodeTests.xctest */,
+				AE4F43061EEA91730026430A /* YHLazyCodeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE4F42E71EEA91730026430A /* YHLazyCode */ = {
+			isa = PBXGroup;
+			children = (
+				AE4F42E81EEA91730026430A /* AppDelegate.h */,
+				AE4F42E91EEA91730026430A /* AppDelegate.m */,
+				AE4F42EE1EEA91730026430A /* ViewController.h */,
+				AE4F42EF1EEA91730026430A /* ViewController.m */,
+				AE4F42F11EEA91730026430A /* Assets.xcassets */,
+				AE4F42F31EEA91730026430A /* Main.storyboard */,
+				AE4F42F61EEA91730026430A /* Info.plist */,
+				AE4F42EB1EEA91730026430A /* Supporting Files */,
+			);
+			path = YHLazyCode;
+			sourceTree = "<group>";
+		};
+		AE4F42EB1EEA91730026430A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE4F42EC1EEA91730026430A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE4F42FE1EEA91730026430A /* YHLazyCodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE4F42FF1EEA91730026430A /* YHLazyCodeTests.m */,
+				AE4F43011EEA91730026430A /* Info.plist */,
+			);
+			path = YHLazyCodeTests;
+			sourceTree = "<group>";
+		};
+		AE4F43091EEA91730026430A /* YHLazyCodeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AE4F430A1EEA91730026430A /* YHLazyCodeUITests.m */,
+				AE4F430C1EEA91730026430A /* Info.plist */,
+			);
+			path = YHLazyCodeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE4F42E41EEA91730026430A /* YHLazyCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE4F430F1EEA91730026430A /* Build configuration list for PBXNativeTarget "YHLazyCode" */;
+			buildPhases = (
+				AE4F42E11EEA91730026430A /* Sources */,
+				AE4F42E21EEA91730026430A /* Frameworks */,
+				AE4F42E31EEA91730026430A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YHLazyCode;
+			productName = YHLazyCode;
+			productReference = AE4F42E51EEA91730026430A /* YHLazyCode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE4F42FA1EEA91730026430A /* YHLazyCodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE4F43121EEA91730026430A /* Build configuration list for PBXNativeTarget "YHLazyCodeTests" */;
+			buildPhases = (
+				AE4F42F71EEA91730026430A /* Sources */,
+				AE4F42F81EEA91730026430A /* Frameworks */,
+				AE4F42F91EEA91730026430A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE4F42FD1EEA91730026430A /* PBXTargetDependency */,
+			);
+			name = YHLazyCodeTests;
+			productName = YHLazyCodeTests;
+			productReference = AE4F42FB1EEA91730026430A /* YHLazyCodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AE4F43051EEA91730026430A /* YHLazyCodeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE4F43151EEA91730026430A /* Build configuration list for PBXNativeTarget "YHLazyCodeUITests" */;
+			buildPhases = (
+				AE4F43021EEA91730026430A /* Sources */,
+				AE4F43031EEA91730026430A /* Frameworks */,
+				AE4F43041EEA91730026430A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE4F43081EEA91730026430A /* PBXTargetDependency */,
+			);
+			name = YHLazyCodeUITests;
+			productName = YHLazyCodeUITests;
+			productReference = AE4F43061EEA91730026430A /* YHLazyCodeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE4F42DD1EEA91730026430A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = MasterFly;
+				TargetAttributes = {
+					AE4F42E41EEA91730026430A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3E4LSSERGY;
+						ProvisioningStyle = Automatic;
+					};
+					AE4F42FA1EEA91730026430A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3E4LSSERGY;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AE4F42E41EEA91730026430A;
+					};
+					AE4F43051EEA91730026430A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3E4LSSERGY;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AE4F42E41EEA91730026430A;
+					};
+				};
+			};
+			buildConfigurationList = AE4F42E01EEA91730026430A /* Build configuration list for PBXProject "YHLazyCode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE4F42DC1EEA91730026430A;
+			productRefGroup = AE4F42E61EEA91730026430A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE4F42E41EEA91730026430A /* YHLazyCode */,
+				AE4F42FA1EEA91730026430A /* YHLazyCodeTests */,
+				AE4F43051EEA91730026430A /* YHLazyCodeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE4F42E31EEA91730026430A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE4F42F21EEA91730026430A /* Assets.xcassets in Resources */,
+				AE4F42F51EEA91730026430A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE4F42F91EEA91730026430A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE4F43041EEA91730026430A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE4F42E11EEA91730026430A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE4F42F01EEA91730026430A /* ViewController.m in Sources */,
+				AE4F42ED1EEA91730026430A /* main.m in Sources */,
+				AE4F42EA1EEA91730026430A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE4F42F71EEA91730026430A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE4F43001EEA91730026430A /* YHLazyCodeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE4F43021EEA91730026430A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE4F430B1EEA91730026430A /* YHLazyCodeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE4F42FD1EEA91730026430A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE4F42E41EEA91730026430A /* YHLazyCode */;
+			targetProxy = AE4F42FC1EEA91730026430A /* PBXContainerItemProxy */;
+		};
+		AE4F43081EEA91730026430A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE4F42E41EEA91730026430A /* YHLazyCode */;
+			targetProxy = AE4F43071EEA91730026430A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE4F42F31EEA91730026430A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE4F42F41EEA91730026430A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE4F430D1EEA91730026430A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AE4F430E1EEA91730026430A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AE4F43101EEA91730026430A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3E4LSSERGY;
+				INFOPLIST_FILE = YHLazyCode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MasterFly.YHLazyCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AE4F43111EEA91730026430A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3E4LSSERGY;
+				INFOPLIST_FILE = YHLazyCode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MasterFly.YHLazyCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AE4F43131EEA91730026430A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3E4LSSERGY;
+				INFOPLIST_FILE = YHLazyCodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MasterFly.YHLazyCodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YHLazyCode.app/Contents/MacOS/YHLazyCode";
+			};
+			name = Debug;
+		};
+		AE4F43141EEA91730026430A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3E4LSSERGY;
+				INFOPLIST_FILE = YHLazyCodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MasterFly.YHLazyCodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YHLazyCode.app/Contents/MacOS/YHLazyCode";
+			};
+			name = Release;
+		};
+		AE4F43161EEA91730026430A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3E4LSSERGY;
+				INFOPLIST_FILE = YHLazyCodeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MasterFly.YHLazyCodeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YHLazyCode;
+			};
+			name = Debug;
+		};
+		AE4F43171EEA91730026430A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3E4LSSERGY;
+				INFOPLIST_FILE = YHLazyCodeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MasterFly.YHLazyCodeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YHLazyCode;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE4F42E01EEA91730026430A /* Build configuration list for PBXProject "YHLazyCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE4F430D1EEA91730026430A /* Debug */,
+				AE4F430E1EEA91730026430A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE4F430F1EEA91730026430A /* Build configuration list for PBXNativeTarget "YHLazyCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE4F43101EEA91730026430A /* Debug */,
+				AE4F43111EEA91730026430A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AE4F43121EEA91730026430A /* Build configuration list for PBXNativeTarget "YHLazyCodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE4F43131EEA91730026430A /* Debug */,
+				AE4F43141EEA91730026430A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AE4F43151EEA91730026430A /* Build configuration list for PBXNativeTarget "YHLazyCodeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE4F43161EEA91730026430A /* Debug */,
+				AE4F43171EEA91730026430A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE4F42DD1EEA91730026430A /* Project object */;
+}
