@@ -14,6 +14,12 @@
 		AE4F42F51EEA91730026430A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE4F42F31EEA91730026430A /* Main.storyboard */; };
 		AE4F43001EEA91730026430A /* YHLazyCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4F42FF1EEA91730026430A /* YHLazyCodeTests.m */; };
 		AE4F430B1EEA91730026430A /* YHLazyCodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4F430A1EEA91730026430A /* YHLazyCodeUITests.m */; };
+		AE4F431F1EEA91D30026430A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE4F431E1EEA91D30026430A /* Cocoa.framework */; };
+		AE4F43251EEA91D30026430A /* SourceEditorExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4F43241EEA91D30026430A /* SourceEditorExtension.m */; };
+		AE4F43281EEA91D30026430A /* SourceEditorCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4F43271EEA91D30026430A /* SourceEditorCommand.m */; };
+		AE4F432C1EEA91D30026430A /* YHLazyCodePlugin.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AE4F431C1EEA91D30026430A /* YHLazyCodePlugin.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AE4F43331EEA977B0026430A /* YHLazyCode.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4F43321EEA977B0026430A /* YHLazyCode.m */; };
+		AE4F43361EEA9FBE0026430A /* NSString+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4F43351EEA9FBE0026430A /* NSString+Add.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +37,28 @@
 			remoteGlobalIDString = AE4F42E41EEA91730026430A;
 			remoteInfo = YHLazyCode;
 		};
+		AE4F432A1EEA91D30026430A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE4F42DD1EEA91730026430A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE4F431B1EEA91D30026430A;
+			remoteInfo = YHLazyCodeTool;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AE4F43301EEA91D30026430A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AE4F432C1EEA91D30026430A /* YHLazyCodePlugin.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		AE4F42E51EEA91730026430A /* YHLazyCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YHLazyCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +76,18 @@
 		AE4F43061EEA91730026430A /* YHLazyCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YHLazyCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE4F430A1EEA91730026430A /* YHLazyCodeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHLazyCodeUITests.m; sourceTree = "<group>"; };
 		AE4F430C1EEA91730026430A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE4F431C1EEA91D30026430A /* YHLazyCodePlugin.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = YHLazyCodePlugin.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE4F431E1EEA91D30026430A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		AE4F43221EEA91D30026430A /* YHLazyCodeTool.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = YHLazyCodeTool.entitlements; sourceTree = "<group>"; };
+		AE4F43231EEA91D30026430A /* SourceEditorExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SourceEditorExtension.h; sourceTree = "<group>"; };
+		AE4F43241EEA91D30026430A /* SourceEditorExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SourceEditorExtension.m; sourceTree = "<group>"; };
+		AE4F43261EEA91D30026430A /* SourceEditorCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SourceEditorCommand.h; sourceTree = "<group>"; };
+		AE4F43271EEA91D30026430A /* SourceEditorCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SourceEditorCommand.m; sourceTree = "<group>"; };
+		AE4F43291EEA91D30026430A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE4F43311EEA977B0026430A /* YHLazyCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHLazyCode.h; sourceTree = "<group>"; };
+		AE4F43321EEA977B0026430A /* YHLazyCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHLazyCode.m; sourceTree = "<group>"; };
+		AE4F43341EEA9FBE0026430A /* NSString+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Add.h"; sourceTree = "<group>"; };
+		AE4F43351EEA9FBE0026430A /* NSString+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Add.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +112,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AE4F43191EEA91D30026430A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE4F431F1EEA91D30026430A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -82,6 +129,8 @@
 				AE4F42E71EEA91730026430A /* YHLazyCode */,
 				AE4F42FE1EEA91730026430A /* YHLazyCodeTests */,
 				AE4F43091EEA91730026430A /* YHLazyCodeUITests */,
+				AE4F43201EEA91D30026430A /* YHLazyCodeTool */,
+				AE4F431D1EEA91D30026430A /* Frameworks */,
 				AE4F42E61EEA91730026430A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,6 +141,7 @@
 				AE4F42E51EEA91730026430A /* YHLazyCode.app */,
 				AE4F42FB1EEA91730026430A /* YHLazyCodeTests.xctest */,
 				AE4F43061EEA91730026430A /* YHLazyCodeUITests.xctest */,
+				AE4F431C1EEA91D30026430A /* YHLazyCodePlugin.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -137,6 +187,39 @@
 			path = YHLazyCodeUITests;
 			sourceTree = "<group>";
 		};
+		AE4F431D1EEA91D30026430A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE4F431E1EEA91D30026430A /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE4F43201EEA91D30026430A /* YHLazyCodeTool */ = {
+			isa = PBXGroup;
+			children = (
+				AE4F43341EEA9FBE0026430A /* NSString+Add.h */,
+				AE4F43351EEA9FBE0026430A /* NSString+Add.m */,
+				AE4F43311EEA977B0026430A /* YHLazyCode.h */,
+				AE4F43321EEA977B0026430A /* YHLazyCode.m */,
+				AE4F43231EEA91D30026430A /* SourceEditorExtension.h */,
+				AE4F43241EEA91D30026430A /* SourceEditorExtension.m */,
+				AE4F43261EEA91D30026430A /* SourceEditorCommand.h */,
+				AE4F43271EEA91D30026430A /* SourceEditorCommand.m */,
+				AE4F43291EEA91D30026430A /* Info.plist */,
+				AE4F43211EEA91D30026430A /* Supporting Files */,
+			);
+			path = YHLazyCodeTool;
+			sourceTree = "<group>";
+		};
+		AE4F43211EEA91D30026430A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE4F43221EEA91D30026430A /* YHLazyCodeTool.entitlements */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,10 +230,12 @@
 				AE4F42E11EEA91730026430A /* Sources */,
 				AE4F42E21EEA91730026430A /* Frameworks */,
 				AE4F42E31EEA91730026430A /* Resources */,
+				AE4F43301EEA91D30026430A /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				AE4F432B1EEA91D30026430A /* PBXTargetDependency */,
 			);
 			name = YHLazyCode;
 			productName = YHLazyCode;
@@ -193,6 +278,23 @@
 			productReference = AE4F43061EEA91730026430A /* YHLazyCodeUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		AE4F431B1EEA91D30026430A /* YHLazyCodePlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE4F432D1EEA91D30026430A /* Build configuration list for PBXNativeTarget "YHLazyCodePlugin" */;
+			buildPhases = (
+				AE4F43181EEA91D30026430A /* Sources */,
+				AE4F43191EEA91D30026430A /* Frameworks */,
+				AE4F431A1EEA91D30026430A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YHLazyCodePlugin;
+			productName = YHLazyCodeTool;
+			productReference = AE4F431C1EEA91D30026430A /* YHLazyCodePlugin.appex */;
+			productType = "com.apple.product-type.xcode-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -219,6 +321,11 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = AE4F42E41EEA91730026430A;
 					};
+					AE4F431B1EEA91D30026430A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3E4LSSERGY;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = AE4F42E01EEA91730026430A /* Build configuration list for PBXProject "YHLazyCode" */;
@@ -237,6 +344,7 @@
 				AE4F42E41EEA91730026430A /* YHLazyCode */,
 				AE4F42FA1EEA91730026430A /* YHLazyCodeTests */,
 				AE4F43051EEA91730026430A /* YHLazyCodeUITests */,
+				AE4F431B1EEA91D30026430A /* YHLazyCodePlugin */,
 			);
 		};
 /* End PBXProject section */
@@ -259,6 +367,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		AE4F43041EEA91730026430A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE4F431A1EEA91D30026430A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -294,6 +409,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AE4F43181EEA91D30026430A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE4F43251EEA91D30026430A /* SourceEditorExtension.m in Sources */,
+				AE4F43361EEA9FBE0026430A /* NSString+Add.m in Sources */,
+				AE4F43331EEA977B0026430A /* YHLazyCode.m in Sources */,
+				AE4F43281EEA91D30026430A /* SourceEditorCommand.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -306,6 +432,11 @@
 			isa = PBXTargetDependency;
 			target = AE4F42E41EEA91730026430A /* YHLazyCode */;
 			targetProxy = AE4F43071EEA91730026430A /* PBXContainerItemProxy */;
+		};
+		AE4F432B1EEA91D30026430A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE4F431B1EEA91D30026430A /* YHLazyCodePlugin */;
+			targetProxy = AE4F432A1EEA91D30026430A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -412,11 +543,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 3E4LSSERGY;
 				INFOPLIST_FILE = YHLazyCode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = MasterFly.YHLazyCode;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.YHLazyCode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -425,11 +558,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 3E4LSSERGY;
 				INFOPLIST_FILE = YHLazyCode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = MasterFly.YHLazyCode;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.YHLazyCode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -488,6 +623,38 @@
 			};
 			name = Release;
 		};
+		AE4F432E1EEA91D30026430A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = YHLazyCodeTool/YHLazyCodeTool.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3E4LSSERGY;
+				INFOPLIST_FILE = YHLazyCodeTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.YHLazyCode.YHLazyCodeTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AE4F432F1EEA91D30026430A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = YHLazyCodeTool/YHLazyCodeTool.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3E4LSSERGY;
+				INFOPLIST_FILE = YHLazyCodeTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.YHLazyCode.YHLazyCodeTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -507,6 +674,7 @@
 				AE4F43111EEA91730026430A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AE4F43121EEA91730026430A /* Build configuration list for PBXNativeTarget "YHLazyCodeTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +683,7 @@
 				AE4F43141EEA91730026430A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AE4F43151EEA91730026430A /* Build configuration list for PBXNativeTarget "YHLazyCodeUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +692,16 @@
 				AE4F43171EEA91730026430A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE4F432D1EEA91D30026430A /* Build configuration list for PBXNativeTarget "YHLazyCodePlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE4F432E1EEA91D30026430A /* Debug */,
+				AE4F432F1EEA91D30026430A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
