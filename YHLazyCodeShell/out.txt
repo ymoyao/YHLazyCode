@@ -1,0 +1,56 @@
+
+- (UIView *)bgView{
+    if (_bgView == nil) {
+        _bgView = [[UIView alloc]init];
+    }
+    return _bgView;
+}
+
+- (UIImageView *)mainImageView{
+    if (_mainImageView == nil) {
+        _mainImageView = [[UIImageView alloc]init];
+    }
+    return _mainImageView;
+}
+
+- (UIView *)mainModuleView{
+    if (_mainModuleView == nil) {
+        _mainModuleView = [[UIView alloc]init];
+    }
+    return _mainModuleView;
+}
+
+- (UILabel *)congratulationOrSorryLabel{
+    if (_congratulationOrSorryLabel == nil) {
+        _congratulationOrSorryLabel = [[UILabel alloc]init];
+    }
+    return _congratulationOrSorryLabel;
+}
+
+- (UILabel *)resultLabel{
+    if (_resultLabel == nil) {
+        _resultLabel = [[UILabel alloc]init];
+    }
+    return _resultLabel;
+}
+
+- (UILabel *)timeOrTipLabel{
+    if (_timeOrTipLabel == nil) {
+        _timeOrTipLabel = [[UILabel alloc]init];
+    }
+    return _timeOrTipLabel;
+}
+
+- (UIButton *)orderBtn{
+    if (_orderBtn == nil) {
+        _orderBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    }
+    return _orderBtn;
+}
+
+- (UILabel *)phoneNumOrSubTipLabel{
+    if (_phoneNumOrSubTipLabel == nil) {
+        _phoneNumOrSubTipLabel = [[UILabel alloc]init];
+    }
+    return _phoneNumOrSubTipLabel;
+}

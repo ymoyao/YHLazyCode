@@ -1,0 +1,9 @@
+@property (nonatomic, strong) UIView *bgView;
+@property (nonatomic, strong) UIImageView *mainImageView;
+@property (nonatomic, strong) UIView *mainModuleView;
+@property (nonatomic, strong) UILabel *congratulationOrSorryLabel;
+@property (nonatomic, strong) UILabel *resultLabel;
+@property (nonatomic, strong) UILabel *timeOrTipLabel;
+@property (nonatomic, strong) UIButton *orderBtn;
+@property (nonatomic, strong) UILabel *phoneNumOrSubTipLabel;
+

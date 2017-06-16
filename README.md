@@ -2,6 +2,7 @@
 * [**前言**](#前言)
 * [**准备工作**](#准备工作)
 * [**使用方法**](#使用方法)
+* [**shell脚本方式**](#shell脚本方式)
 * [**总结**](#总结)
 
 
@@ -27,7 +28,11 @@
 ![屏幕快照 2017-06-16 下午3.41.00.png](http://upload-images.jianshu.io/upload_images/1891685-968be8db7838897e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 * 会自动生成如下的懒加载代码![屏幕快照 2017-06-16 下午3.42.48.png](http://upload-images.jianshu.io/upload_images/1891685-cb2f3981b306841b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-* 当然你可以在Xcode-->preferences-->key bindings 中搜索该插件找到并添加快捷键,当然要主要不要和Xcode本身的快捷键冲突了。![屏幕快照 2017-06-16 下午3.48.35.png](http://upload-images.jianshu.io/upload_images/1891685-4884238a4f205fc4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+* 当然你可以在Xcode-->preferences-->key bindings 中搜索该插件找到并添加快捷键,当然要注意不要和Xcode本身的快捷键冲突了。![屏幕快照 2017-06-16 下午3.48.35.png](http://upload-images.jianshu.io/upload_images/1891685-4884238a4f205fc4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+###<a name="shell脚本方式"></a>shell脚本方式
+如果你觉得以上的插件方式前奏太多，不适合你的话，那么你可以试试脚本的方式。
+YHLazyCodeShell 文件夹中还有独立于插件的脚本，如里面例子所示，在property.txt 文件中粘贴你想要格式化的property。切换到run.sh的目录下，执行run.sh，即可在out.txt中得到想要的懒加载代码。（要记得给shell脚本运行的权限：chmod + x）。在这里就不贴图片了，个人感觉还是插件的方式比较顺哈！
 
 ###<a name="总结"></a>总结
 目前是第一版，有bug,有建议的欢迎留言。喜欢的话顺手帮忙点个赞吧～
